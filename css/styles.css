@@ -45,42 +45,63 @@ a {
   padding-left: 15px;
   padding-right: 15px;
 }
-.accent{
-  position: relative; 
-
-}
-.accent::after{
-content:"" ;
-display: inline-block;
-height: 4px;
-width: 100%;
-background-color: var(--accent-color);
-position: absolute;
-left: 0;
-bottom: 0;
-border-radius: 2px;
-
-}
-.service{
-   width: 100%;
-  height: 70px;
-font-weight: 700;
-font-size: 14px;
-align-items: center;
-text-transform: uppercase;
-color: var(--white-color);
-bottom: 0;
-  right: 0;
-display: flex;
-position: absolute;
- background-color: #2F303ACC;
- justify-content: center;
- 
-  
-}
-
-.images .item{
+.accent {
   position: relative;
+}
+.accent::after {
+  content: "";
+  display: inline-block;
+  height: 4px;
+  width: 100%;
+  background-color: var(--accent-color);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-radius: 2px;
+}
+.service {
+  width: 100%;
+  height: 70px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  align-items: center;
+  text-transform: uppercase;
+  color: var(--white-color);
+  bottom: 0;
+  right: 0;
+  display: flex;
+  position: absolute;
+  background-color: #2f303acc;
+  justify-content: center;
+}
+
+.images .item {
+  position: relative;
+}
+.info {
+  height: 294px;
+  width: 100%;
+  background-color: #2196f3e5;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: var(--white-color);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.55;
+  padding: 63px 24px;
+  opacity: 0;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  transform: translateY(100%);
+}
+
+.project .item:hover .info {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .auth-icon {
@@ -537,6 +558,9 @@ a {
 .project .item:hover {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
+.project .item {
+  position: relative;
+}
 
 .footer-icon {
   width: 44px;
@@ -565,18 +589,35 @@ a {
   display: flex;
 }
 
-.project-thumb::before{
-  content:"" ;
-  display: inline-block;
-  position: absolute;
-  width: 100%;
-height: 100%;
-background-color: var(--accent-color);
-opacity: 0;
-}
-.project-thumb:hover::before{
-  opacity: 1;
-}
-.project-thumb{
+.project-thumb {
   position: relative;
+  overflow: hidden;
+}
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0000001a;
+}
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 528px;
+  height: 581px;
+  background-color: var(--white-color);
+}
+.modal-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #0000001a;
+}
+.close-button {
 }

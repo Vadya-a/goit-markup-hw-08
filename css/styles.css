@@ -29,6 +29,9 @@ a {
   margin: 0;
   padding: 0;
 }
+.link {
+  transition-duration: 250ms;
+}
 
 *,
 *::before,
@@ -74,7 +77,6 @@ a {
   position: absolute;
   background-color: #2f303acc;
   justify-content: center;
-  
 }
 
 .images .item {
@@ -192,6 +194,9 @@ a {
 .icon:focus .social-icon {
   fill: var(--white-color);
 }
+.icon {
+  transition-duration: 250ms;
+}
 
 .company-list:hover {
   border-color: var(--accent-color);
@@ -203,6 +208,7 @@ a {
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;
+  transition-duration: 250ms;
 }
 
 .company-icon {
@@ -255,6 +261,7 @@ a {
 
 .priority-logo {
   display: flex;
+  transition-duration: 250ms;
 }
 
 .logo {
@@ -306,7 +313,7 @@ a {
   font-weight: 500;
   font-size: 14px;
   line-height: 100%;
-
+  transition-duration: 250ms;
   padding-bottom: 32px;
   padding-top: 32px;
 }
@@ -319,6 +326,7 @@ a {
   font-weight: 500;
   font-size: 14px;
   line-height: 100%;
+  transition-duration: 250ms;
 }
 
 .hero {
@@ -508,10 +516,14 @@ a {
   line-height: 1.71;
   margin-top: 25px;
 }
+.home-adress {
+  transition-duration: 250ms;
+}
 .last-nav {
   color: #ffffff99;
   font-size: 14px;
   line-height: 1.71;
+  transition-duration: 250ms;
 }
 .last-nav:focus,
 .last-nav:hover {
@@ -553,6 +565,9 @@ a {
 
   gap: 10px;
 }
+.footer-logo {
+  transition-duration: 250ms;
+}
 .social-footer {
   fill: var(--white-color);
 }
@@ -574,6 +589,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition-duration: 250ms;
 }
 .footer-icon:hover {
   background-color: #2196f3;
@@ -602,7 +618,7 @@ a {
   height: 100%;
   background-color: #0000001a;
 }
-.backdrop.is-hidden{
+.backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
 }
@@ -614,7 +630,6 @@ a {
   width: 528px;
   height: 581px;
   background-color: var(--white-color);
-  
 }
 .modal-button {
   position: absolute;
@@ -622,21 +637,19 @@ a {
   right: 0;
   width: 30px;
   height: 30px;
-  border-radius: 50%; 
-   border: 1px solid #0000001a;
- padding: 0;
- cursor: pointer;
- display: flex;
- justify-content: center;
- align-items: center;
- 
-
+  background-color: var(--white-color);
+  border-radius: 50%;
+  border: 1px solid #0000001a;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .close-button {
-display: flex;
-justify-content: center;
-align-items: center;
-width: 30px;
-height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
 }
-

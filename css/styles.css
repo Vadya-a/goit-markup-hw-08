@@ -141,7 +141,7 @@ a {
 .icon:hover {
   background-color: #2196f3;
 }
-.social-link {
+.social-list {
   display: flex;
   justify-content: center;
   gap: 10px;
@@ -170,26 +170,53 @@ a {
 .contact-link:hover .contact-icon {
   fill: var(--accent-color);
 }
+.company-list{
+  display: flex;
+    gap: 30px;
+    justify-content: center;
+}
 
 .company-icon:hover {
   fill: var(--accent-color);
 }
 .social-icon {
   display: block;
+  fill: #AFB1B8;
 }
-.icon:hover,
-.icon:focus {
+.social-link:hover,
+.social-link:focus {
   background-color: var(--accent-color);
 }
-.icon:hover .social-icon,
-.icon:focus .social-icon {
+.social-link:hover .social-icon,
+.social-link:focus .social-icon {
   fill: var(--white-color);
 }
-.icon {
+.social-link {
+      width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    padding: 0;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: #afb1b8;
   transition-duration: 250ms;
 }
+.company-section{
+  padding-top: 94px;
+    padding-bottom: 94px
+}
+.company-title{
+      color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    text-align: center;
+    margin-bottom: 50px
+}
 
-.company-list:hover {
+.company-item:hover {
   border-color: var(--accent-color);
 }
 .company-link {
@@ -472,7 +499,7 @@ a {
   line-height: 100%;
 }
 
-.description {
+.command-description {
   color: var(--primer-color);
   font-size: 16px;
   line-height: 100%;

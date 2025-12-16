@@ -289,4 +289,102 @@
   margin-top: 10px;
 }
 
-/*social*//*# sourceMappingURL=main.css.map */
+/*social*/
+.social-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--accent-color);
+}
+
+.social-link:hover .social-icon,
+.social-link:focus .social-icon {
+  fill: var(--white-color);
+}
+
+.social-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  padding: 0;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  fill: #afb1b8;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+}
+
+.social-icon {
+  display: block;
+}
+
+/*company*/
+.company-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.company-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.company-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.company-item:hover {
+  border-color: var(--accent-color);
+}
+
+.company-link {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+}
+
+.company-link:hover .company-icon,
+.company-link:focus .company-icon {
+  fill: var(--accent-color);
+}
+
+/*footer*//*# sourceMappingURL=main.css.map */

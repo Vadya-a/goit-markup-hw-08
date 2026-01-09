@@ -1,0 +1,41 @@
+.client{
+  padding-top: 94px;
+  padding-bottom: 94px;
+  &-title{
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    text-align: center;
+    margin-bottom: 50px
+  }
+  &-list{
+        display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+&-item:hover{
+     border-color: var(--accent-color);
+}
+&-link{
+      align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  transition-duration: 250ms;
+  &:focus, &:hover {
+    border-color: var(--accent-color);
+  }
+}
+&-icon{
+      fill: #afb1b8;
+  .client-link:hover &,
+  .client-link:focus &{
+    fill: var(--accent-color);
+}
+  }
+  
+}

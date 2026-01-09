@@ -1,0 +1,72 @@
+.page-header {
+  border-bottom: solid 1px #ececec;
+}
+.main-nav {
+  display: flex;
+  align-items: center;
+  padding-bottom: 0;
+  &__logo
+    {
+   color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 100%;
+  &--accent{  color: #000000;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 100%;
+ }
+  }
+  .navigation {
+  margin-left: 93px;
+  &-list{
+    .navigation-list {
+  display: flex;
+& .navigation-item:not(:last-child)
+    }
+    
+{
+     margin-right: 50px;
+}}
+&-link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  transition-duration: 250ms;
+  padding-bottom: 32px;
+  padding-top: 32px;
+  &:focus, &:hover{
+    color: var(--accent-color);
+  }
+}
+}
+.contact {
+  display: flex;
+  margin-left: auto;
+&-item:not(:last-child){
+     margin-right: 50px;
+}
+&-link{
+     color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  transition-duration: 250ms;
+  padding-bottom: 32px;
+  padding-top: 32px;
+  display: flex;
+  align-items: center;
+  &:focus, &:hover{
+    color: var(--accent-color);
+}
+&-icon{
+   fill: #757575;
+  margin-right: 10px;
+  .contact-link:hover &{
+    fill: var(--accent-color);
+  }  
+}
+}

@@ -1,0 +1,21 @@
+.footer{
+      margin-right: 70px;
+  width: 321px;
+  &-container{
+    display: flex;
+  }
+  &-section{
+      background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  }
+  &-logo--accent{
+       color: var(--white-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 100%;
+  }
+}

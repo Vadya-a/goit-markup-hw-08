@@ -1,0 +1,51 @@
+.project{
+    display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  &-description{
+     height: 294px;
+  width: 100%;
+  background-color: #2196f3e5;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: var(--white-color);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.55;
+  padding: 63px 24px;
+  opacity: 0;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateY(100%);
+  &--accept{
+  position: relative;
+  overflow: hidden;
+  }
+  .project-item:hover &{
+  opacity: 1;
+  transform: translateY(0);
+  }
+  }
+  &-content{
+     border-right: solid 1px #eeeeee;
+  border-bottom: solid 1px #eeeeee;
+  border-left: solid 1px #eeeeee;
+  padding-top: 20px;
+  padding-left: 24px;
+  padding-bottom: 20px;
+  }
+  &-title{
+      color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  }
+  &-categories{
+     color: var(--primer-color);
+  font-size: 16px;
+  line-height: 1.88;
+  margin-top: 4px;
+  }
+}

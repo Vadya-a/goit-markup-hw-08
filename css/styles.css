@@ -205,7 +205,9 @@ a {
 }
 .client{
   padding-top: 94px;
-    padding-bottom: 94px
+    padding-bottom: 94px;
+    
+    
 }
 .section-title{
       color: var(--title-text-color);
@@ -214,6 +216,8 @@ a {
     line-height: 100%;
     text-align: center;
     margin-bottom: 50px
+
+
 }
 
 .client-item:hover {
@@ -362,6 +366,13 @@ a {
   line-height: 100%;
   transition-duration: 250ms;
 }
+.contact-link__footer{
+      color: #ffffff99;
+    font-size: 14px;
+    line-height: 1.71;
+    transition-duration: 250ms;
+}
+
 
 .hero {
   background-image: linear-gradient(to right, #2f303a66),
@@ -396,7 +407,7 @@ a {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.filter-section{
+.filter{
    padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -552,7 +563,7 @@ a {
   line-height: 1.71;
   transition-duration: 250ms;
 }
-.contact-link__footer{
+.footer-contact__link{
   color: #757575;
   font-weight: 500;
   font-size: 14px;

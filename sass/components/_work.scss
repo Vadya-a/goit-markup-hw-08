@@ -1,7 +1,7 @@
 .work {
   padding-bottom: 94px;
   &-title{
-      color: var(--title-text-color);
+      color:$TitleTextColor;
   font-weight: 700;
   font-size: 36px;
   line-height: 100%;
@@ -23,7 +23,7 @@ gap: 30px;
   line-height: 100%;
   align-items: center;
   text-transform: uppercase;
-  color: var(--white-color);
+  color: $WhiteColor;
   bottom: 0;
   right: 0;
   display: flex;

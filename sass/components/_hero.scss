@@ -12,7 +12,7 @@
   padding-top: 200px;
   padding-bottom: 200px;
   &-title{
-     color: var(--white-color);
+     color:$WhiteColor;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -22,7 +22,7 @@
   }
   &-button{
       color: #ffffff;
-  background-color: var(--accent-color);
+  background-color:$AccentColor;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;

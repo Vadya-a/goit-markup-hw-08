@@ -12,7 +12,7 @@
   flex-wrap: wrap;
   }
   &-logo--accent{
-       color: var(--white-color);
+       color:$WhiteColor;
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -52,7 +52,7 @@
   }
   }
   &-social-icon{
-    fill: var(--white-color);
+    fill:$WhiteColor;
   }
 }
 
@@ -61,7 +61,7 @@
   margin-bottom: 9px
 }
 .home-adress {
-  color: var(--white-color);
+  color: $WhiteColor;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -80,7 +80,7 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 100%;
-  color: var(--white-color);
+  color:$WhiteColor;
   text-transform: uppercase;
   margin-bottom: 22px;
   }
@@ -103,12 +103,12 @@
 }
 &__icon {
   margin-left: 10px;
-  fill: var(--white-color);
+  fill:$WhiteColor;
 }
 &__button {
   display: flex;
-  background-color: var(--accent-color);
-  color: var(--white-color);
+  background-color: $AccentColor;
+  color:$WhiteColor;
   width: 200px;
   height: 50px;
   border-radius: 4px;

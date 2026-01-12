@@ -2,7 +2,7 @@
   padding-top: 94px;
   padding-bottom: 94px;
   &-title{
-    color: var(--title-text-color);
+    color:$TitleTextColor;
     font-weight: 700;
     font-size: 36px;
     line-height: 100%;
@@ -15,8 +15,7 @@
     justify-content: center;
 }
 &-item:hover{
-     border-color: var(--accent-color);
-}
+     border-color:$AccentColor;}
 &-link{
       align-items: center;
   display: flex;
@@ -27,15 +26,15 @@
   border-radius: 4px;
   transition-duration: 250ms;
   &:focus, &:hover {
-    border-color: var(--accent-color);
+    border-color: $AccentColor;
   }
 }
 &-icon{
       fill: #afb1b8;
   .client-link:hover &,
   .client-link:focus &{
-    fill: var(--accent-color);
+    fill:$AccentColor;
 }
   }
-  
 }
+  

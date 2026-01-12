@@ -7,11 +7,11 @@
   padding-bottom: 0;
   &__logo
     {
-   color: var(--accent-color);
+   color:$AccentColor;
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 100%;
+  line-height: 100%;}
   &--accent{  color: #000000;
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -22,16 +22,12 @@
   .navigation {
   margin-left: 93px;
   &-list{
-    .navigation-list {
   display: flex;
-& .navigation-item:not(:last-child)
-    }
-    
-{
-     margin-right: 50px;
-}}
+& .navigation-item:not(:last-child){
+  margin-right: 50px;  }
+}
 &-link {
-  color: var(--title-text-color);
+  color:$TitleTextColor;
   font-weight: 500;
   font-size: 14px;
   line-height: 100%;
@@ -39,7 +35,7 @@
   padding-bottom: 32px;
   padding-top: 32px;
   &:focus, &:hover{
-    color: var(--accent-color);
+    color:$AccentColor;
   }
 }
 }
@@ -55,18 +51,19 @@
   font-size: 14px;
   line-height: 100%;
   transition-duration: 250ms;
-  padding-bottom: 32px;
+    padding-bottom: 32px;
   padding-top: 32px;
   display: flex;
   align-items: center;
   &:focus, &:hover{
-    color: var(--accent-color);
+    color:$AccentColor;
+}
 }
 &-icon{
    fill: #757575;
   margin-right: 10px;
   .contact-link:hover &{
-    fill: var(--accent-color);
+    fill:$AccentColor;
   }  
 }
 }

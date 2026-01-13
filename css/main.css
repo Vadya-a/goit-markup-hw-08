@@ -973,6 +973,7 @@ a {
 }
 .project-item {
   position: relative;
+  overflow: hidden;
 }
 .project-description {
   height: 294px;
@@ -999,7 +1000,6 @@ a {
 }
 .project-description--accept {
   position: relative;
-  overflow: hidden;
 }
 .project-item:hover .project-description {
   opacity: 1;

@@ -426,7 +426,7 @@ body {
   line-height: 100%;
 }
 .command-description {
-  color: var(--primer-color);
+  color: #757575;
   font-size: 16px;
   line-height: 100%;
   margin-top: 10px;
@@ -577,6 +577,8 @@ body {
 .cta-title {
   color: #ffffff;
   font-size: 14px;
+  font-weight: 700;
+  line-height: 100%;
   margin-bottom: 22px;
 }
 
@@ -973,13 +975,13 @@ body {
   padding-bottom: 20px;
 }
 .project-title {
-  color: var(--title-text-color);
+  color: #212121;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
 }
 .project-categories {
-  color: var(--primer-color);
+  color: #757575;
   font-size: 16px;
   line-height: 1.88;
   margin-top: 4px;

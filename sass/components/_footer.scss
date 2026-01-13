@@ -58,7 +58,8 @@
 
 .address {
   margin-top: 20px;
-  margin-bottom: 9px
+  margin-bottom: 9px;
+  font-style: normal;
 }
 .home-adress {
   color: $WhiteColor;
@@ -121,4 +122,10 @@
   border: 1px solid transparent;
   margin-left: 12px;
 }
+}
+.contact-link__footer{
+      color: #ffffff99;
+    font-size: 14px;
+    line-height: 1.71;
+    transition-duration: 250ms;
 }

@@ -39,6 +39,21 @@
   }
 }
 }
+.accent{
+  color: $AccentColor;
+  position: relative;
+  &::after{
+    content: "";
+    display: inline-block;
+    height: 4px;
+    width: 100%;
+    background-color:$AccentColor;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    border-radius: 2px;
+  }
+}
 .contact {
   display: flex;
   margin-left: auto;

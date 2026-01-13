@@ -7,14 +7,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition:250ms cubic-bezier(0.4, 0, 0.2, 1);
     &:hover, &:focus{
         background-color:$AccentColor;
-       
+        transition-duration: 250ms;
     }
     &:hover .social-icon,
     &:focus .social-icon{
         fill: $WhiteColor;
-        transition-duration:$TransitionTiming;
     }
     
 }
@@ -45,5 +45,6 @@ fill: #AFB1B8;
   justify-content: center;
   transition-duration: 250ms;
   &-hover{ background-color: #2196f3;
+     transition-duration: 250ms;
   }
 }

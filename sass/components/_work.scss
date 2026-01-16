@@ -32,3 +32,8 @@ gap: 30px;
   justify-content: center;
 }
 }
+@media screen and (max-width:480px){
+  .work{
+    display: none;
+  }
+}

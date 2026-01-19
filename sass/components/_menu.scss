@@ -1,0 +1,14 @@
+.menu-container{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    padding-left: 40px;
+    &.is-open{
+        display: block;
+    }
+}

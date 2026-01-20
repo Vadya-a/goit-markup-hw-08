@@ -1,14 +1,8 @@
 .filter{
-     padding-top: 94px;
-  padding-bottom: 94px;
-  &-list{
-      display: flex;
-  justify-content: center;
-  gap: 8px;
-  margin-bottom: 50px;
-  }
-  &-button{
-      color: $TitleTextColor;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    &-button{
+              color: $TitleTextColor;
   background-color: #f5f4fa;
   font-weight: 500;
   font-size: 16px;
@@ -17,16 +11,53 @@
   cursor: pointer;
   border-radius: 4px;
   border: transparent;
-  padding-top: 6px;
-  padding-right: 22px;
-  padding-bottom: 6px;
-  padding-left: 22px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  transition:250ms cubic-bezier(0.4, 0, 0.2, 1);
-  &:hover{
-      color: $WhiteColor;
-  background-color:$AccentColor;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  }
-  }
+  padding: 6px 22px ;
+    }
+    &-list{
+        padding-bottom: 40px;
+    }
+    
 }
+
+
+
+
+
+
+
+
+
+
+
+// .filter{
+//      padding-top: 94px;
+//   padding-bottom: 94px;
+//   &-list{
+//       display: flex;
+//   justify-content: center;
+//   gap: 8px;
+//   margin-bottom: 50px;
+//   }
+//   &-button{
+//       color: $TitleTextColor;
+//   background-color: #f5f4fa;
+//   font-weight: 500;
+//   font-size: 16px;
+//   line-height: 1.63;
+//   text-align: center;
+//   cursor: pointer;
+//   border-radius: 4px;
+//   border: transparent;
+//   padding-top: 6px;
+//   padding-right: 22px;
+//   padding-bottom: 6px;
+//   padding-left: 22px;
+//   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+//   transition:250ms cubic-bezier(0.4, 0, 0.2, 1);
+//   &:hover{
+//       color: $WhiteColor;
+//   background-color:$AccentColor;
+//   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+//   }
+//   }
+// }

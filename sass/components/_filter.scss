@@ -12,11 +12,34 @@
   border-radius: 4px;
   border: transparent;
   padding: 6px 22px ;
+  transition:250ms cubic-bezier(0.4, 0, 0.2, 1);
+     &:hover{
+      color: $WhiteColor;
+  background-color:$AccentColor;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
     }
     &-list{
         padding-bottom: 40px;
     }
+    @media screen and (max-width:480px){
+        &-list{ display: flex;
+        flex-wrap: wrap;
+        gap: 8px;}
+       
+    }
+    @media screen and (min-width:768px){
+&-list{ display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    gap: 8px;}
+    }
     
+@media  screen and (min-width:1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    
+}
 }
 
 

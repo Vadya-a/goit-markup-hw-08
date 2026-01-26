@@ -6,6 +6,11 @@
     width: 528px;
     height: 581px;
     background-color:$WhiteColor;
+    @media screen and (max-width:768px
+    ){
+      width:450px ;
+      height: 609px;
+    }
 }
 .modal-form {
   display: flex;
@@ -25,6 +30,7 @@
   font-weight: 700;
   font-size: 20px;
   line-height: 100%;
+  text-align: center;
 }
 &__label {
   margin-bottom: 4px;
@@ -84,6 +90,9 @@
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
+  @media screen and (max-width:768px){
+    font-size: 12px;
+  }
 }
 &__button {
   display: flex;
@@ -105,8 +114,8 @@
 }
 .modal-checkbox__icon {
   display: inline-block;
-  width: 15px;
-  height: 16px;
+  width: 16px;
+  height: 15px;
   border-radius: 2px;
   border: 2px solid black;
   margin-right: 7px;

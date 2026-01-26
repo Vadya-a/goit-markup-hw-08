@@ -1,27 +1,59 @@
 .footer{
+  @media screen and (max-width:480px){
+ &-social{
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+   &-logo{
+       display: flex;
+    justify-content: center;
+    }
+  }
+  @media screen and (min-width:768px) and (max-width:1199px){
+    margin-left: 61px;
+    &-option{
+      display: flex;
+    }
+    &-social{
+      margin-left: 165px;
+    }
+    &-logo{
+       display: flex;
+    justify-content: center;
+    }
+  }
+  @media screen and (min-width:1200px){
+    margin-right: 70px;
+    
+    &-section{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    &-container{
+      display: flex;
+    }
+    &-option{
+      display: flex;
+    }
+  }
   &-section{
     background-color: #2f303a;
     padding-top: 60px;
    padding-bottom: 60px;
    
   }
-  &-logo{
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: center;
-
-  }
-  &-social{
-    margin-top: 60px;
-    margin-bottom: 60px;
-  }
+  
+ &-contact__item:not(:last-child){
+margin-bottom: 8px;
+ }
     &-contact__link{
    color: #757575;
    font-weight: 500;
 font-size: 14px;
 line-height: 100%;
-display: flex;
-    justify-content: center;
+@media screen and (max-width:768px){display: flex;
+    justify-content: center;}
+
     
     }
    &-social__link{
@@ -36,16 +68,22 @@ display: flex;
    align-items: center;
    justify-content: center;
    transition-duration: 250ms;
-  margin-right: 10px;}
+  margin-right: 10px;
+&:hover, &:focus{
+     background-color: #2196f3;}}
    &-link__list{
     display: flex;
     justify-content: center;
    }
 }
 .address{
-font-style: normal;
-display: flex;
+  font-style: normal;
+  margin-top: 20px;
+  margin-bottom: 9px;
+  @media screen and (max-width:768px){
+    display: flex;
     justify-content: center;
+  }
   }
   .home-adress {
 color: $WhiteColor;
@@ -58,11 +96,30 @@ margin-bottom: 8px;}
    font-weight: 700;
    line-height: 100%;
    margin-bottom: 20px;
-   display: flex;
+   @media screen and (max-width:768px){
+ display: flex;
     justify-content: center;
+   }
+  
   }
     .footer-form{
- 
+      @media screen and (min-width:768px) and (max-width:1199px){
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+      }
+      @media screen and (min-width:1200px){
+    margin-left: 93px;
+     &__field {
+  display: block;
+}
+&__option{
+  display: flex;
+}
+  }
+ &__icon{
+  margin-left: 10px;
+ }
   &__option{
       margin-top: 20px;
   }
@@ -72,21 +129,30 @@ margin-bottom: 8px;}
   line-height: 100%;
   color:$WhiteColor;
   text-transform: uppercase;
-  display: flex;
+  @media screen and (max-width:768px){
+ display: flex;
     justify-content: center;
   }
-  &__field {
-  
-}
+  }
+ 
+ 
 &__field input {
+  @media screen and (max-width:480px){
+width: 100%;
+  }
+  @media screen and (min-width:768px){
+    width: 450px;
+  }
+  @media screen and (min-width:1200px){
+    width: 358px;
+  }
+  
   display: block;
   border-radius: 4px;
   border: 1px solid #ffffff4d;
   background-color: #2f303a;
   color: var(--white-color);
-  width: 100%;
   margin-bottom: 20px;
-  
   padding: 15px 16px;
   &:focus{
     outline: none;
@@ -94,6 +160,9 @@ margin-bottom: 8px;}
   .form-button{
     display: flex;
     justify-content: center;
+    @media screen and (min-width:1200px){
+      margin-left: 12px;
+    }
   }
   .footer-contact__link:not(:last-child){
     margin-bottom: 8px;

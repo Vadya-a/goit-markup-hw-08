@@ -1,13 +1,13 @@
-.project{
-    display: flex;
+.project {
+  display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  &-item{
-   position: relative;
-   overflow: hidden;
+  &-item {
+    position: relative;
+    overflow: hidden;
   }
-  &-description{
-      height: 294px;
+  &-description {
+    height: 294px;
     width: 100%;
     background-color: #2196f3e5;
     align-items: center;
@@ -20,50 +20,44 @@
     line-height: 1.55;
     padding: 63px 24px;
     opacity: 0;
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition:
+      opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transform: translateY(100%);
-  &--accept{
-  position: relative;
-  }
-  .project-item:hover &{
-  opacity: 1;
-  transform: translateY(0);
-  }
-  }
-  &-content{
-     border-right: solid 1px #eeeeee;
-  border-bottom: solid 1px #eeeeee;
-  border-left: solid 1px #eeeeee;
-  padding-top: 20px;
-  padding-left: 24px;
-  padding-bottom: 20px;
-  }
-  &-title{
-      color:$TitleTextColor;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  }
-  &-categories{
-     color: $PrimerColor;
-  font-size: 16px;
-  line-height: 1.88;
-  margin-top: 4px;
-  }
-  @media screen and (max-width: 767px){
-  .project{
-    display: block;
-    &-item{
-      margin-bottom: 30px;
-      
+    &--accept {
+      position: relative;
     }
-  }}
-   @media screen and (min-width:768px) and (max-width:1199px){
-   &-item{
-    
-   }
+    .project-item:hover & {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
- }
-
- 
- 
+  &-content {
+    border-right: solid 1px #eeeeee;
+    border-bottom: solid 1px #eeeeee;
+    border-left: solid 1px #eeeeee;
+    padding-top: 20px;
+    padding-left: 24px;
+    padding-bottom: 20px;
+  }
+  &-title {
+    color: $TitleTextColor;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+  }
+  &-categories {
+    color: $PrimerColor;
+    font-size: 16px;
+    line-height: 1.88;
+    margin-top: 4px;
+  }
+  @media screen and (max-width: 767px) {
+    .project {
+      display: block;
+      &-item {
+        margin-bottom: 30px;
+      }
+    }
+  }
+}

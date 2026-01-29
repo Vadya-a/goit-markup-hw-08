@@ -1,128 +1,66 @@
 /*for phone*/
-.command{
-    background-color: #f5f4fa;
-    padding-top:60px ;
-    padding-bottom: 60px;
-    &-title{
-font-weight: 700;
-font-size: 28px;
-line-height: 100%;
-text-align: center;
-margin-bottom: 30px;
+.command {
+  background-color: #f5f4fa;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  &-title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  &-item {
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 30px;
+  }
+  &-employees {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  &-person {
+    color: $TitleTextColor;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+  }
+  &-description {
+    color: $PrimerColor;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    margin-top: 10px;
+  }
 
+  @media screen and (min-width: 768px) {
+    &-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
     }
-    &-item{
-        background-color: #ffffff;
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  margin-bottom: 30px;
-    }
-    &-employees{
-         padding-top: 30px;
-         padding-bottom: 30px;
-         text-align: center;
-    }
-    &-person{
- color:$TitleTextColor;
-   font-weight: 500;
-   font-size: 16px;
- line-height: 100%;
-    }
-    &-description{
-         color:$PrimerColor;
-         font-weight: 400;
-   font-size: 16px;
- line-height: 100%;
-   margin-top: 10px;
-    }
-  
-    @media screen and (min-width:768px)
-    {
-      &-list{
-        display: grid;
-    grid-template-columns: 1fr 1fr;
-      }
-    }
-    @media screen and (min-width:768px) and (max-width:1200px)
-         {&-item:nth-child(1){
+  }
+  @media screen and (min-width: 768px) and (max-width: 1200px) {
+    &-item:nth-child(1) {
       margin-right: 30px;
     }
-     &-item:nth-child(3){
+    &-item:nth-child(3) {
       margin-right: 30px;
-    }}
-    @media screen and (min-width:1200px){
-      padding-top: 94px;
-      padding-bottom: 94px;
-      &-list{
-        display: flex;
-        gap: 30px;
-      }
-      &-item{
-        margin-right: 0;
-      }
-      &-title{
-        font-size: 36px;
-      }
     }
+  }
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    &-list {
+      display: flex;
+      gap: 30px;
+    }
+    &-item {
+      margin-right: 0;
+    }
+    &-title {
+      font-size: 36px;
+    }
+  }
 }
-
-
-
-
-
-
-
-
-
-
-// .command {
-//   background-color: #f5f4fa;
-//   padding-top: 94px;
-//   padding-bottom: 94px;
-//   &-title{
-//     color: var(--title-text-color);
-//   font-weight: 700;
-//   font-size: 36px;
-//   line-height: 100%;
-//   text-align: center;
-//   margin-bottom: 50px;
-//   }
-//   &-list{
-//       display: flex;
-//   gap: 30px;
-//   padding-left: 0;
-//   text-align: center;
-//   margin-top: 50px;
-//   }
-//   &-item{
-//       background-color: #ffffff;
-//   border-radius: 4px;
-//   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-//   }
-//   &-employees{
-//       padding-top: 30px;
-//   padding-bottom: 30px;
-//   }
-//   &-title{
-//       color: var(--title-text-color);
-//   font-weight: 700;
-//   font-size: 36px;
-//   line-height: 100%;
-//   text-align: center;
-//   margin-bottom: 50px;
-//   }
-//   &-person{
-//      color: var(--title-text-color);
-//   font-weight: 500;
-//   font-size: 16px;
-//   line-height: 100%;
-//   }
-//   &-description{
-//       color:$PrimerColor;
-//   font-size: 16px;
-//   line-height: 100%;
-//   margin-top: 10px;
-//   }
-// }
-
-

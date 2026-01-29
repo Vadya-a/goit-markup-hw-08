@@ -1,36 +1,36 @@
-.social-link{
-        width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    padding: 0;
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition:250ms cubic-bezier(0.4, 0, 0.2, 1);
-    &:hover, &:focus{
-        background-color:$AccentColor;
-        transition-duration: 250ms;
-    }
-    &:hover .social-icon,
-    &:focus .social-icon{
-        fill: $WhiteColor;
-    }
-    
+.social-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  padding: 0;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: $AccentColor;
+    transition-duration: 250ms;
+  }
+  &:hover .social-icon,
+  &:focus .social-icon {
+    fill: $WhiteColor;
+  }
 }
 
-.social-list{
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 16px;
+.social-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 16px;
 }
-.social-icon{
-display: block;
-fill: #AFB1B8;
+.social-icon {
+  display: block;
+  fill: #afb1b8;
 }
-.footer-social__icon{
-    fill: $WhiteColor;
+.footer-social__icon {
+  fill: $WhiteColor;
 }
 .footer-social__link {
   width: 44px;
@@ -44,7 +44,8 @@ fill: #AFB1B8;
   align-items: center;
   justify-content: center;
   transition-duration: 250ms;
-  &-hover{ background-color: #2196f3;
-     transition-duration: 250ms;
+  &-hover {
+    background-color: #2196f3;
+    transition-duration: 250ms;
   }
 }

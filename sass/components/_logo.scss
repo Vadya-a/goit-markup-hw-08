@@ -1,18 +1,18 @@
-.logo{
-display: inline-block;
-    font-family: Raleway, sans-serif;
-    font-size: 26px;
-    font-weight: 700;
-    letter-spacing: .03em;
-    line-height: 100%;
-    color: #2196f3;
-@media screen and (min-width:768px){
-     font-size: 24px;
+.logo {
+  display: inline-block;
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  line-height: 100%;
+  color: #2196f3;
+  @media screen and (min-width: 768px) {
+    font-size: 24px;
+  }
 }
+.main-nav__logo--accent {
+  color: #000000;
 }
-.main-nav__logo--accent{
-     color: #000000;
-}
-.footer-logo__accent{
-     color:$WhiteColor;
+.footer-logo__accent {
+  color: $WhiteColor;
 }

@@ -22,7 +22,7 @@
   &-list {
     padding-bottom: 40px;
   }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 767px) {
     &-list {
       display: flex;
       flex-wrap: wrap;

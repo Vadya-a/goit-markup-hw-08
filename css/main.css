@@ -58,15 +58,6 @@ body {
   width: 200px;
   height: 50px;
   border: 1px solid transparent;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .logo {
@@ -314,6 +305,18 @@ body {
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4)), url(/images/Header-phone-img.jpg);
   background-size: contain;
   background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+.hero-title {
+  text-align: center;
 }
 @media screen and (max-width: 767px) {
   .hero {
@@ -333,21 +336,12 @@ body {
   line-height: 1.36;
   text-transform: uppercase;
   margin-bottom: 30px;
-  text-align: center;
 }
 @media screen and (min-width: 768px) {
   .hero {
     margin-left: auto;
     margin-right: auto;
     padding: 118px 204px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
   }
 }
 .hero-title {
@@ -357,13 +351,11 @@ body {
   line-height: 1.36;
   text-transform: uppercase;
   margin-bottom: 30px;
-  text-align: center;
 }
 @media screen and (min-width: 1200px) {
   .hero {
     padding-top: 200px;
     padding-bottom: 200px;
-    text-align: center;
   }
   .hero-title {
     font-size: 44px;
@@ -1426,7 +1418,7 @@ body {
 .filter-list {
   padding-bottom: 40px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .filter-list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1524,5 +1516,13 @@ body {
   }
   .project .project-item {
     margin-bottom: 30px;
+  }
+  .project-images {
+    width: 450px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .project-images {
+    width: 354px;
   }
 }/*# sourceMappingURL=main.css.map */
